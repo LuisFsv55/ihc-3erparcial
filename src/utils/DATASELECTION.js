@@ -61,7 +61,7 @@ export const DATASELECTIONGRUPOS = [
             fin: '12:00'
         },
         docente: 'Evans Balcazar Veizaga',
-        cupo: 0,
+        cupo: 10,
         union: {
             id: 1,
             subject: 'Programación I',
@@ -175,7 +175,11 @@ export const DATASELECTIONGRUPOS = [
             viernes: false,
             sabado: false
         },
-        hora: '14:00 - 16:00',
+        hora: '17:00 - 19:30',
+        horas: {
+            inicio: '17:00',
+            fin: '19:30'
+        },
         docente: 'Isabel Miriam Guzman de Molina',
         cupo: 10,
         union: {

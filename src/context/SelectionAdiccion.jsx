@@ -127,7 +127,7 @@ const SelectionAdicionProvider = ({ children }) => {
             materiasInscritasReg,
             conflictoCruceMaterias,
             conflictoDataCruce,
-            handleClickQuitarMateria,
+            // handleClickQuitarMateria,
             setCheckSelectionMaterias,
             materiasAdicionarIncritas
         }}>
