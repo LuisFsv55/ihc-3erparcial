@@ -1,0 +1,24 @@
+{
+  "inscritas": [
+    {
+      "id": 1,
+      "group": "SA",
+      "horario": "Lun-Mar-Mier",
+      "dia": {
+        "lunes": true,
+        "martes": true,
+        "miercoles": true,
+        "jueves": false,
+        "viernes": false,
+        "sabado": false
+      },
+      "hora": "10:00 - 12:00",
+      "docente": "Evans Balcazar Veizaga",
+      "cupo": 40,
+      "union": {
+        "id": 1,
+        "subject": "Programación I"
+      }
+    }
+  ]
+}

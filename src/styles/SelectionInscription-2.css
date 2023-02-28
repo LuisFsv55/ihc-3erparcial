@@ -1,0 +1,78 @@
+:root {
+    --blanco: #fff;
+    --negro: #000;
+    --rosa: #EB455F;
+}
+.SelectionInscription-2 {
+    border-top: 1rem solid var( --rosa );
+    border-radius: 1rem;
+    background: #2B3467;
+    padding: 2rem;
+    color: #fff;
+    box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.58);
+-webkit-box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.58);
+-moz-box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.58);
+}
+.title-group {
+    margin: 0.7rem 0;
+}
+.selection-group-materias {
+    display: flex;
+    gap: 1rem;
+}
+.select-inscription-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    background-color: #FCFFE7;
+    display: inline-block;
+    height: 27rem;
+    overflow-y: auto;
+    color: var( --negro );
+    border-radius: 1rem;
+}
+.select-inscription-group .parafo-grupo {
+    margin: 0.6rem 0;
+}
+.parafo-grupo {
+    font-weight: 700;
+}
+.data-id-materias {
+    display: none;
+}
+.select-inscription-group-materias {
+    background-color: #BAD7E9;
+    color: var( --negro );
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid #000;
+}
+.select-inscription-group-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+.select-cupo {
+    font-weight: bold;
+    /* margin-right: 2rem; */
+    display: inline-block;
+    background-color: #2B3467;
+    border-radius: 50%;
+    color: #fff;
+    padding: 0.3rem;
+}
+.inscribir-grupo {
+    margin-right: 1rem;
+    font-weight: bold;
+}
+.inscribir-grupo span {
+    font-weight: normal;
+}
+.select-inscription-group-para {
+    margin: 0.6rem 0;
+    font-weight: bold;
+}
+.select-inscription-group-para span {
+    font-weight: normal;
+}
