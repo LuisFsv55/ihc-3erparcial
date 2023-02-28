@@ -132,6 +132,7 @@ img { max-width: 100%; display: block; }/* imagenes responsive, linea de la part
 }
 .nav-enlace {
   color: #073061;
-  background-color: #E1E1E1;
+  /* background-color: #E1E1E1; */
+  border-top: 0.1rem solid var( --rosa );
   padding: 1rem;
 }
